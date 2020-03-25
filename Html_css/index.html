@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Drag_Drop and image_link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--drag and drop preview-->  
+    <h3>Drag and drop preview</h3>
+    <div id="dropPreviewdiv" onclick="$('#dropinput').click()">
+        <p>Drag and drop image</p>
+        <input type="file" name=""  id="dropinput" />
+        <img id="dropPreview" src=""/>
+    </div>
+
+
+<!--link preview-->
+    <div id='linkpreviewdiv'>   
+        <h3>link preview</h3>
+        <p>Enter image link: <input id="linkinputId" type="text"></p>
+        <button type="button" onclick="showPreview()">See preview</button>
+        <p id='linkimgpreview'></p>
+    </div>
+
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>

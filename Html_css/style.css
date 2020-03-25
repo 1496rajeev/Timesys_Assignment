@@ -1,0 +1,58 @@
+body {
+text-align: center;
+font-family: sans-serif;
+}
+
+h3{
+    color: #3317cf;
+}
+
+p{
+    color: rgb(54, 54, 54);
+}
+
+
+button {
+    background-color: #3317cf;
+    border: 2px solid #3317cf;
+    border-radius: 3px;
+    padding: 7px 12px;
+    color: #fff;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+#linkpreviewdiv{
+    margin-top: 80px;
+}
+
+#dropPreviewdiv{
+    border: 2px dashed #c9c9c9;
+    border-radius: 3px;
+    padding: 60px 97px;
+    margin: 0px 285px;
+    color: rgb(54, 54, 54);
+}
+
+
+#dropinput{
+    position: absolute;
+    padding: 73px 198px;
+    margin: -112px -347px;
+    z-index:2;
+    opacity:0;
+    cursor:pointer;
+    border: 2px dashed #c9c9c9;
+}
+
+#dropPreview{
+    position: absolute;
+    width: 697px;
+    height: 176px;
+    margin: -113px -348px;
+    border-radius: 3px;
+    z-index:1;
+    border:none;
+}
+
+
